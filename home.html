@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUS RESERVATION</title>
+    <link rel="stylesheet" href="check.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="in.js"></script>
+
+</head>
+<body>
+    <!-- <section id="header">
+        <a href="#"><img src="logo1.png" class="logo"  height="50" ></a>
+    </section> -->
+
+    <section id="hero">
+        <div class="gottilla">
+            <span id="humm" style="font-size:50px">
+            <h1>
+                Embrace the Ride, Embrace the Joy
+            </h1>
+        </span>
+            <h5 id="humm1">
+                We aim in connecting communities, one ride at a time!
+            </h5>
+            <div class="container">
+                <div class="search-bar">
+
+                    
+
+                    <div class="dropdown">
+                        <input type="text" id="sourceInput" class="dropdown-input" placeholder="Source">
+                        <div class="dropdown-menu" id="sourceDropdown">
+                            <div class="dropdown-item">Bengaluru</div>
+                            <div class="dropdown-item">Tumkur</div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <input type="text" id="destinationInput" class="dropdown-input" placeholder="Destination">
+                        <div class="dropdown-menu" id="destinationDropdown">
+                            <div class="dropdown-item">Gokarna</div>
+                            <div class="dropdown-item">Waynad</div>
+                            <div class="dropdown-item">Chennai</div>
+                        </div>
+                    </div>
+                    
+                    <button id="search-btn">Search</button>
+                    
+                    <span>         
+                        <input type="date" id="selected-date">
+   
+                    <script >
+            const selectedDateInput = document.getElementById('selected-date');
+   
+       selectedDateInput.addEventListener('change', function() {
+         const selectedDate = selectedDateInput.value;
+         console.log('Selected date:', selectedDate);
+       });
+     </script>
+   </span>
+
+                </div>
+                
+            </div>
+            <script src="check.js"></script>
+        </div>
+        
+
+    </section>
+
+    <nav class="navbar">
+        <a href="#"><img src="logo_nobg.png" class="logo"  height="80" width="200" ></a>
+        <!-- <div class="navbar-toggle" onclick="toggleNavbar()">
+            <span class="toggle-icon"></span>
+          </div> -->
+        <ul class="navbar-items">
+            <i class="fa fa-home" style="font-size: 24px;" ></i>
+            <li><a class="active" href="home.html">Home</a></li>
+            <i class="fas fa-box" style="font-size: 24px;"></i>
+            <li><a href="#">Parcel</a></li>
+            <i class="fas fa-bus" style="font-size: 24px;"></i>
+            <li><a href="#">Contract</a></li>
+            <i class="fas fa-info-circle" style="font-size: 24px;"></i>
+            <li><a href="#">About</a></li>
+            <i class="fas fa-phone" style="font-size: 24px;"></i>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+</body>
+</html>
